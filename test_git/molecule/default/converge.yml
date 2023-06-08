@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include mon_role.test_git"
+      include_role:
+        name: "mon_role.test_git"
